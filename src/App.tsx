@@ -1,5 +1,11 @@
+import { ModeSelector } from "./modules/mode-selector";
+
 function App() {
-  return <div className="App">hello world</div>;
+  return (
+    <>
+      <ModeSelector />
+    </>
+  );
 }
 
 export default App;
