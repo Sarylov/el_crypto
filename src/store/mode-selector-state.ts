@@ -1,6 +1,6 @@
 import { makeAutoObservable } from "mobx";
 
-class ModeSelector {
+class ModeSelectorState {
   selected: "encrypt" | "decrypt" = "encrypt";
 
   constructor() {
@@ -16,4 +16,4 @@ class ModeSelector {
   }
 }
 
-export default new ModeSelector();
+export default new ModeSelectorState();
