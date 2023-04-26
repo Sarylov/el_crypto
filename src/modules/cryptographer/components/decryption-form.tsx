@@ -9,7 +9,7 @@ export const DecryptionForm: React.FC = observer(() => {
     encryptedText,
     decryptedText,
     boundSetEncryptedText,
-    boundSetDecryptedText,
+    boundSetDecryptionKey,
     decrypt,
     copyDecryptedText,
   } = useCryptographer();
@@ -31,7 +31,7 @@ export const DecryptionForm: React.FC = observer(() => {
           label="Введите ключь"
           value={decryptionKey}
           onChange={(e) => {
-            boundSetDecryptedText(e.target.value);
+            boundSetDecryptionKey(e.target.value);
           }}
           helperText="Должен состоять из 8 цифр через пробел"
         />

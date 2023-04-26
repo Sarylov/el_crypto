@@ -64,6 +64,7 @@ export const useCryptographer = () => {
     boundSetKey,
     boundSetDecryptedText,
     boundSetEncryptedText,
+    boundSetDecryptionKey,
     encrypt,
     copyEncryptedText,
     copyDecryptedText,
