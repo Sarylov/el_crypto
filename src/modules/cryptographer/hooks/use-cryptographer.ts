@@ -13,7 +13,7 @@ const successfullyEncryptedFeedback: IFeetBack = {
 
 const unsuccessfullyEncryptedFeedback: IFeetBack = {
   type: "error",
-  title: "Не удалось зашифровать",
+  title: "Не удалось расшифровать",
   message:
     "Проверьте правильность формата ключа. Ключ должен состоять из 8 целых чисел разделенных пробелом",
 };
