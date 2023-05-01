@@ -30,7 +30,7 @@ export const EncryptionForm: React.FC = observer(() => {
         <TextField
           required
           id="key"
-          label="Введите ключь"
+          label="Введите ключ"
           value={key}
           onChange={(e) => {
             boundSetKey(e.target.value);
