@@ -28,7 +28,7 @@ export const DecryptionForm: React.FC = observer(() => {
         <TextField
           required
           id="key"
-          label="Введите ключь"
+          label="Введите ключ"
           value={decryptionKey}
           onChange={(e) => {
             boundSetDecryptionKey(e.target.value);
